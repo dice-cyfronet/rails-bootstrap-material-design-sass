@@ -20,12 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```scss
+// application.css.scss
+@import "bootstrap-material-design-sass/material";
+@import "bootstrap-material-design-sass/ripples";
+```
 
-## Contributing
+```javascript
+// application.js
+//=require "bootstrap-material-design-sass/material"
+//=require "bootstrap-material-design-sass/ripples"
+```
 
-1. Fork it ( https://github.com/[my-github-username]/bootstrap-material-design-sass/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request

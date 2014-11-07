@@ -7,4 +7,12 @@ task :update_assets do
   Dir['source/sass/*'].each do |file|
     cp file, 'app/assets/stylesheets/bootstrap-material-design-sass/' + File.basename(file)
   end
+  Dir['source/fonts/*'].each do |file|
+    next if file['LICENSE']
+    cp file, 'app/assets/fonts/bootstrap-material-design-sass/' + File.basename(file)
+  end
+  Dir['source/scripts/*'].each do |file|
+    next if file['LICENSE']
+    cp file, 'app/assets/javascripts/bootstrap-material-design-sass/' + File.basename(file)
+  end
 end

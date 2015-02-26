@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bootstrap-material-design-sass/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bootstrap-material-design-saas-sass"
+  spec.name          = "bootstrap-material-design-sass"
   spec.version       = BootstrapMaterialDesignSass::VERSION
   spec.authors       = ["Stefan Wienert"]
   spec.email         = ["stefan.wienert@pludoni.de"]

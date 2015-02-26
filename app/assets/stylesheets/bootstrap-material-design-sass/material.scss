@@ -1,10 +1,10 @@
 // Material Theme 0.0.1
 // -----------------------------------------------------
 
-@import "_variables.scss";
-@import "_mixins.scss";
-@import "_shadows.scss";
-@import "_icons-material-design.scss";
+@import "variables";
+@import "mixins";
+@import "shadows";
+@import "icons-material-design";
 
 body {
     background-color: #EEEEEE;
@@ -21,19 +21,19 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 // Well and Jumbotrons
-@import "_welljumbo.scss";
+@import "welljumbo";
 
 // Buttons
-@import "_buttons.scss";
+@import "buttons";
 
 // Checkboxes
-@import "_checkboxes.scss";
+@import "checkboxes";
 
 // Radios
-@import "_radios.scss";
+@import "radios";
 
 // Text inputs
-@import "_inputs.scss";
+@import "inputs";
 
 legend {
     border-bottom: 0;
@@ -55,10 +55,10 @@ legend {
 }
 
 // Lists
-@import "_lists.scss";
+@import "lists";
 
 // Navbar
-@import "_navbar.scss";
+@import "navbar";
 
 .dropdown-menu {
     border: 0;
@@ -76,13 +76,13 @@ legend {
 }
 
 // Alerts
-@import "_alerts.scss";
+@import "alerts";
 
 // Progress bar
-@import "_progress.scss";
+@import "progress";
 
 // Panels
-@import "_cards.scss";
+@import "cards";
 
 // Typography
 .text-warning {
@@ -101,13 +101,13 @@ legend {
     color: $btn-info;
 }
 
-@import "_tabs.scss";
+@import "tabs";
 
-@import "_popups.scss";
+@import "popups";
 
-@import "_icons.scss";
+@import "icons";
 
 
 // External plugins
-@import "_plugin-snackbarjs.scss";
-@import "_plugin-nouislider.scss";
+@import "plugin-snackbarjs";
+@import "plugin-nouislider";
